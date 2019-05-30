@@ -18,7 +18,6 @@ body {
   li {
     float: left;
     border-right: 1px solid #bbb;
-    background-color: #111;
   }
   
   li a {
@@ -31,7 +30,7 @@ body {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    
+    background-color: #111;
   }
 
   .active{
