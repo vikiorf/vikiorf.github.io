@@ -10,12 +10,7 @@ pipeline {
       steps {
         bat 'npm run lintme'
       }
-    }
-    stage('Build Production files') {
-      steps {
-        bat 'npm run build'
-      }
-    }
+    }    
     stage('Test') {
       steps {
         bat 'npm run test -- --coverage'
