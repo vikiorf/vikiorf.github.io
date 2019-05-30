@@ -15,5 +15,9 @@
     "eject": "react-scripts eject",
     "devEnv": "npm i && npm run build",
     "serve": "npm install && npm run build && serve -s build"
+  },
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "nightwatch": "^1.1.11"
   }
 }
