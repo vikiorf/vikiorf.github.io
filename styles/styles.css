@@ -33,6 +33,12 @@ body {
     background-color: #111;
   }
 
+  img{
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  }
+
   .active{
     background-color: #4CAF50;
   }
