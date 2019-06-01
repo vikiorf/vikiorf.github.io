@@ -14,7 +14,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "devEnv": "npm i && npm run build",
-    "serve": "npm install && npm run build && serve -s build"
+    "serve": "npm install && npm run build && serve -s build",
+    "verifyLogoo": "nightwatch"
   },
   "devDependencies": {
     "chromedriver": "^74.0.0",
