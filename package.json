@@ -15,10 +15,11 @@
     "eject": "react-scripts eject",
     "devEnv": "npm i && npm run build",
     "serve": "npm install && npm run build && serve -s build",
-    "verifyLogoo": "nightwatch"
+    "verifyLogoo": "nightwatch --env default"
   },
   "devDependencies": {
     "chromedriver": "^74.0.0",
-    "nightwatch": "^1.1.11"
+    "nightwatch": "^1.1.11",
+    "selenium-server": "^3.141.59"
   }
 }
