@@ -5,9 +5,15 @@
 
   <testsuite name="hypertime"
     errors="0" failures="0" hostname="" id="" package="hypertime" skipped="0"
-    tests="1" time="1.213" timestamp="">
+    tests="1" time="4.442" timestamp="">
   
-    <testcase name="Guinea Pig Assert Title" classname="hypertime" time="1.213" assertions="2">
+    <testcase name="Guinea Pig Assert Title" classname="hypertime" time="4.442" assertions="5">
+
+    
+
+    
+
+    
 
     
 
