@@ -18,6 +18,7 @@ module.exports = {
       "webdriver.chrome.driver" : chromedriver.path
     }
   },
+  "test_workers" : {"enabled" : true, "workers" : "auto"},
   "test_settings": {
     "default": {
       "screenshots": {
