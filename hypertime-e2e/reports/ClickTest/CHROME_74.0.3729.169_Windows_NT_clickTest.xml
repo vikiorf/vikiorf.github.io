@@ -5,9 +5,9 @@
 
   <testsuite name="ClickTest.clickTest"
     errors="0" failures="0" hostname="" id="" package="ClickTest" skipped="0"
-    tests="1" time="3.646" timestamp="">
+    tests="1" time="3.655" timestamp="">
   
-    <testcase name="Tampa text visible" classname="ClickTest.clickTest" time="3.646" assertions="3">
+    <testcase name="Tampa text visible" classname="ClickTest.clickTest" time="3.655" assertions="3">
 
     
 
