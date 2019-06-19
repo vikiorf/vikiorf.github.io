@@ -6,17 +6,12 @@ module.exports = { // adapted from: https://git.io/vodU0
     browser
       .url('https://vikiorf.github.io')
       .waitForElementVisible('body')
-      .assert.title('Viktors sida!')
-      
-      .click('xpath', '/html/body/div[1]/ul/li[5]/a')
-      
+      .assert.title('Viktors sida!')      
+      .click('xpath', '/html/body/div[1]/ul/li[5]/a')      
       //.waitForElementVisible('xpath','/html/body/div[2]/h2')
-
       .assert.containsText('body > div:nth-child(2) > h2', 'Tampa')
-      //.expect.element('.ListItemTitle-sc-1t4skn3-0').text.to.contain('Quick scaffolding')
-      
-      .pause(2000)
-      .end();
+      //.expect.element('.ListItemTitle-sc-1t4skn3-0').text.to.contain('Quick scaffolding')      
+      .pause(2000)      
   },
 
   'News text visible': function(browser) {
