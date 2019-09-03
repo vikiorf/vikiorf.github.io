@@ -4,10 +4,10 @@ document.getElementById('date').innerHTML = new Date().toDateString();
 
 function textAppears() {
     var x = document.getElementById("textAppearss");
-    if (x.innerHTML === "Hello") {
-      x.innerHTML = "Swapped text!";
+    if (x.innerHTML === "") {
+      x.innerHTML = "Test";
     } else {
-      x.innerHTML = "Hello";
+      x.innerHTML = "";
     }
   }
 
