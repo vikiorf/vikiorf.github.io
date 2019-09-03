@@ -1,4 +1,7 @@
-document.getElementById('date').innerHTML = new Date().today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+document.getElementById('date').innerHTML = date;
+//document.getElementById('date').innerHTML = new Date().toDateString();
 
 
 
