@@ -1,8 +1,6 @@
 document.getElementById('date').innerHTML = new Date().toDateString();
 
-/*function textAppears(){
-    document.getElementById('textAppearss').innerHTML = "Test";
-}*/
+
 
 function textAppears() {
     var x = document.getElementById("textAppearss");
@@ -12,3 +10,7 @@ function textAppears() {
       x.innerHTML = "Hello";
     }
   }
+
+  /*function textAppears(){
+    document.getElementById('textAppearss').innerHTML = "Test";
+}*/
