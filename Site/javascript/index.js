@@ -1,5 +1,5 @@
 var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var date = 'Date: '+today.getFullYear()+'-0'+(today.getMonth()+1)+'-0'+today.getDate();
 document.getElementById('date').innerHTML = date;
 //document.getElementById('date').innerHTML = new Date().toDateString();
 
