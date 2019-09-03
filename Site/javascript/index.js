@@ -5,7 +5,7 @@ document.getElementById('date').innerHTML = new Date().toDateString();
 }*/
 
 function textAppears() {
-    var x = document.getElementById("myDIV");
+    var x = document.getElementById("textAppearss");
     if (x.innerHTML === "Hello") {
       x.innerHTML = "Swapped text!";
     } else {
