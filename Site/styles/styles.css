@@ -121,3 +121,31 @@ body {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  #app{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #dices-list {
+    list-style-type: none;
+    color: whitesmoke;
+  }
+  #dices-list li {
+    border: 1px solid white;
+    margin-right: 30px;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+  }
+  
+  #result {
+    border: 1px solid whitesmoke;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-self: center;
+    color: whitesmoke;
+  }
+  
