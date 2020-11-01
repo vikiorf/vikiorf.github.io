@@ -122,6 +122,18 @@ body {
     border-radius: 50%;
   }
 
+  /* Dices start */
+  html,
+body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	background-color: #0a0908;
+	font-family: 'Arvo', 'Sans serif';
+  display: flex;
+  flex-direction: column;
+}
+
   #app{
     flex-grow: 1;
     display: flex;
@@ -148,4 +160,5 @@ body {
     align-self: center;
     color: whitesmoke;
   }
-  
+
+  /* Dices end */
