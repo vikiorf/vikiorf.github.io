@@ -48,6 +48,8 @@ function checkTarget(target) {
     return 20
   } else if (target.id === 'six') {
     return 6
+  } else if (target.id === 'four') {
+    return 4
   } else if (target.id === 'eight') {
     return 8
   } else if (target.id === 'ten') {
