@@ -3,12 +3,12 @@ body {
   margin: 0;
   height: 100vh;
   font-family: 'Arvo', 'Sans serif';
+  background-color: #D6DBD2;
 }
 
 #app {
   display: flex;
   flex-direction: column;
-  background-color: #D6DBD2;
 }
 
 #app * {
