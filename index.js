@@ -16,7 +16,6 @@ async function retrieveDadJoke() {
     .then((result) => {
       return result
     })
-  console.log('retrieveDadJoke() - joke', joke)
   return joke
 }
 
